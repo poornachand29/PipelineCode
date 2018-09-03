@@ -8,18 +8,18 @@ Pipeline {
 	}
 
         stage('Build'){
-             steps {
+            steps {
                 echo "Building..."
             }
         }
 
         stage('Deploy'){
-             steps {
+            steps {
                 echo "Code deployed..."
             }
         }
 
-      }
+    }
 
-     }
+}
 
