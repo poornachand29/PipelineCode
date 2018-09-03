@@ -2,10 +2,10 @@ Pipeline {
     agent any 
     stages{
         stage('Init'){
-	    steps {
+	        steps {
 	        echo "Testing..."
             }
-	}
+	    }
 
         stage('Build'){
             steps {
@@ -20,6 +20,5 @@ Pipeline {
         }
 
     }
-
 }
 
